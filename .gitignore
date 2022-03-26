@@ -1,8 +1,5 @@
 # Ignore Builds
 a.out
 
-# Ignore any future versions of highestBoulder.txt so that it is fresh for the users
-highestBoulder.txt
-
-# Ignore any future versions of highestBoulder.txt so that it is fresh for the users
-boulders.txt
+# ignore any future versions of any .txt files
+*.txt

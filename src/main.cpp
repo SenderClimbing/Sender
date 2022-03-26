@@ -46,8 +46,6 @@ int main(){
 
     // Reopen the file, without append mode. So we can read it.
     file.open("data/boulders.txt");
-    highestBoulderFile.open("data/highestBoulder.txt", std::ofstream::out | std::ofstream::trunc);
-    
 
     // Read through our Database, and check if any of the grades are higher than highestBoulder
     if (file.is_open()){
@@ -55,10 +53,13 @@ int main(){
         while (getline(file,line)){
             // Check if any of the climbs are greater than your highest level of a climb
             if(std::stoi(line) > highestBoulder){
+                // Open our HighestBoulder file, which contains the highest level of Boulder that the user has achived
+                highestBoulderFile.open("data/highestBoulder.txt", std::ofstream::out | std::ofstream::trunc);
                 // Tell the user! They did it!
                 std::cout << "Wow! You did your first v" << line << " Keep it up!" << std::endl;
                 highestBoulderFile << line;
                 highestBoulder = std::stoi(line);
+                highestBoulderFile.close();
             }
         }
         file.close();

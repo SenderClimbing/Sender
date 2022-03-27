@@ -1,8 +1,5 @@
 <h1 align="center">
     <img src="https://user-images.githubusercontent.com/76081718/160261328-dc5d2e72-8bfc-4e05-a4d7-8912d8c2206e.png" alt="Logo">
-    <br>
-        Sender
-    </br>
 </h1>
 
 <!-- Old Logo: -->
@@ -18,7 +15,7 @@
 ## Note!
 
 This project is by no means done, It has a terminal based version if you are very intrigued and wish to use it. In the future I am planning to add a better front end. It will include a GUI app(Made in C++) and a Web version (Made with JS, HTML, and CSS). Thanks for your understanding, and I will keep you updated in the future
-<!-- <h1 align="center">Sender</h1> -->
+<h1 align="center">Sender</h1>
 <p align="center">Log all your climbs in one place, and get feedback on how you are doing!</p>
 
 <br>

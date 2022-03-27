@@ -1,7 +1,13 @@
 <h1 align="center">
-    <img src="https://user-images.githubusercontent.com/76081718/160248964-1b7625cd-53ce-464f-b148-f5cf2bd39a43.png" alt="Logo">
+    <img src="https://user-images.githubusercontent.com/76081718/160261328-dc5d2e72-8bfc-4e05-a4d7-8912d8c2206e.png" alt="Logo">
 </h1>
+
+<!-- Old Logo: -->
 <!-- ![b4a85973c59f481e8bd48dcaf0dac485](https://user-images.githubusercontent.com/76081718/160248964-1b7625cd-53ce-464f-b148-f5cf2bd39a43.png) -->
+
+<!-- New Logo: -->
+<!-- ![85242ec97c984381b2d662cd64ab9652](https://user-images.githubusercontent.com/76081718/160261328-dc5d2e72-8bfc-4e05-a4d7-8912d8c2206e.png) -->
+
 
 ## Note!
 
